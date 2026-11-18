@@ -1,0 +1,21 @@
+# OS & Editor
+.DS_Store
+*.swp
+*.log
+
+# FVM Version Cache
+.fvm/
+beadcube/.fvm/
+
+# Signing Secrets (Never Commit)
+*.jks
+*.keystore
+**/key.properties
+**/local.properties
+
+# Build & Dependencies
+beadcube/build/
+beadcube/.dart_tool/
+beadcube-web/node_modules/
+beadcube-web/dist/
+beadcube-web/.netlify/

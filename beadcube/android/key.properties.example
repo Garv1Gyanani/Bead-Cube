@@ -1,0 +1,7 @@
+# Copy this file to `android/key.properties` (git-ignored) before running
+# `fvm flutter build appbundle --release` for Google Play upload.
+storePassword=YOUR_KEYSTORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=upload
+storeFile=/absolute/path/to/beadcube-upload-keystore.jks
+
